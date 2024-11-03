@@ -1,0 +1,220 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Cairo+Play:wght@200..1000&display=swap');
+*{
+    font-family: "Arima", system-ui;
+}
+
+/* navbar */
+nav{
+    background-color: #fdbd19;
+}
+
+.nav-item{
+    font-weight: bolder;
+}
+
+/* card */
+.card{
+background-color: #b0b8b4;
+}
+
+
+/*  carousel */
+.carousel-inner img{
+    height: 100vh;
+}
+ 
+.carousel-caption:hover{
+    background-color: #4b4948;
+    opacity: 0.7;
+    border-radius: 40px;
+    transition: ease .5s;
+    bottom: 55px;
+}
+
+.carousel-indicators button{
+    background-color: #fdbd19 !important;
+    border-radius: 50% !important;
+    height: 10px !important;
+    width: 10px !important;
+}
+
+.carousel-inner button{
+    background-color: #fdbd19;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: bolder;
+    border: none;
+}
+
+.carousel-inner button:hover{
+    background-color: rgb(245, 5, 5);
+    transition: ease .2s;
+    color: #fff;
+}
+
+.carousel-item img{
+    height: 220px;
+    width: 270px;
+}
+
+#carouselExampleFade button{
+    color: #fdbd19;
+}
+
+
+
+/* icon */
+.icon{
+    color: #fdbd19;
+    font-size: 20px;
+}
+
+
+
+/* text and colors */
+.text-white{
+    display: flex;
+}
+
+.text-white :hover{
+color: #164F9E;
+transition: ease .3s;
+}
+
+.text-center button{
+    background-color: #fdbd19;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: bolder;
+    border: none;
+}
+
+.text-center button:hover{
+    background-color: rgb(245, 5, 5);
+    transition: ease .2s;
+    color: #fff;
+}
+
+.sp{
+    color: #164F9E;
+}
+
+.yal{
+    color:#fff;
+}
+
+.yal-bor{
+    color: #fff;
+    border-bottom: #ff1100 5px solid;
+}
+
+.con{
+    border-radius: 20px 0px 0px 20px;
+}
+
+.tack{
+    color: #fdbd19;
+    border-bottom: #4b4948 5px solid;
+}
+
+.gad{
+    color: #164F9E;
+}
+
+
+
+/* offcan */
+.offcan-pricy{
+    color: #fdbd19;
+}
+
+.offcan-img{
+    width: 350px;
+    height: 250px;
+}
+
+.offcan-img:hover{
+    transform:rotate(5deg);
+    transition: ease all 0.5s;
+}
+
+.offcan-offer{
+    color: #ff1100;
+}
+
+/* star */
+.star{
+    padding: 2px;
+    color: #fdbd19;
+}
+
+.star:hover{
+    padding: 2px;
+    color:#ff1100;
+    cursor: pointer;
+}
+
+/* btn */
+.btn-primary{
+    background-color: #fdbd19;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bolder;
+    border: none;
+}
+
+.btn-primary:hover{
+    background-color: rgb(245, 5, 5);
+    transition: ease .1s;
+}
+
+
+
+/* modal */
+#exampleModalLabel{
+    color: #164F9E;
+}
+
+
+/* Contactus */
+.Contactus{
+    height: 60vh;
+    background: url('../img/b.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+
+/* collapse */
+.collapse button{
+    color: #164F9E;
+}
+
+
+/* accordion */
+.accordion-button{
+    border-radius: 5px !important;
+
+}
+
+/* footer */
+footer{
+    background-color: #fdbd19;
+    color: #fff;
+}
+
+footer span{
+    color: #164F9E;
+}
+
+
+footer p{
+    color: #164F9E;
+}
